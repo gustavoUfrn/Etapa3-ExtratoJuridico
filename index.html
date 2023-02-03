@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Extrato Juridico</title>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div>
+            <form>
+                <label>Primeiro Nome: </label></br>
+                <input type="text" id="username" name="username" required></input><br>
+
+                <label>Email: </label></br>
+                <input type="email" id="email" name="email" required></input><br>
+
+                <label>CPF: </label></br>
+                <input type="text" id="cpf" name="cpf" required></input><br><br>
+
+                <button type="button" id="submit" onclick="user.salvar()">submit</button><br><br>
+            </form>
+        </div>
+        <div>
+            <table>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    
+</body>
+
+</html>
